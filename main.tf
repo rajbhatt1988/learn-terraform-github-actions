@@ -5,7 +5,7 @@ tags = {
 Name = "My_VPC"
 }
 }
-resource "aws_subnet "testsubnet" {
+resource "aws_subnet" "testsubnet" {
 cidr_block = "10.11.1.0/24"
 tags = {
 Name = "MyTestSubnet"
