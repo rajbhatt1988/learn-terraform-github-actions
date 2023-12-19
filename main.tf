@@ -5,7 +5,7 @@ Name = "My_VPC"
 }
 }
 resource "aws_subnet" "MySubnet" {
- vpc_id = "aws_vpc" "My_VPC.id"
+  vpc_id = "aws_vpc.My_VPC.id"
   cidr_block = "10.11.1.0/24"
   tags = {
     Name = "Mysubnet"
