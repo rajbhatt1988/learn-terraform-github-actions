@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 module "iam" {
-  source    = "/modules/iam/main.tf"
+  source    = "./modules/iam"
   user_name = "testuser"
 }
