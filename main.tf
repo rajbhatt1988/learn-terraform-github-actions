@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 module "iam" {
-  source    = "https://github.com/rajbhatt1988/learn-terraform-github-actions/modules/iam/main.tf"
+  source    = "/modules/iam/main.tf"
   user_name = "testuser"
 }
